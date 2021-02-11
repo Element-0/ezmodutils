@@ -7,7 +7,7 @@ type ModKind = enum
 
 proc praseModKind(str: string): ModKind {.inline.} = parseEnum[ModKind](str)
 
-proc action*() =
+proc generate_resource*() =
   {
     "name": JString(str: @name),
     "version": JString(str: (parseVersionCode: @version)),
