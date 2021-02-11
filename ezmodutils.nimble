@@ -6,6 +6,7 @@ description   = "A new awesome nimble package"
 license       = "LGPL-3.0"
 srcDir        = "."
 bin           = @["ezmodutils"]
+installExt    = @["dll", "pdb"]
 namedBin["ezmodutils"] = "ezmod"
 
 
