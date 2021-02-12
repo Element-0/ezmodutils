@@ -6,5 +6,6 @@ dispatchMulti(
   [generate_resource],
   [dump_typeinfo],
   [dump_vtable],
+  [find_subclass],
   [find_symbol],
   [find_unique_symbol])
