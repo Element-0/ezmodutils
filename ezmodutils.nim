@@ -8,4 +8,4 @@ dispatchMulti(
   [dump_vtable],
   [find_subclass],
   [find_symbol],
-  [find_unique_symbol])
+  [find_unique_symbol, doc = "used by codegen"])
